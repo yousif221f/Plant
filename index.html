@@ -40,7 +40,7 @@
   <div class="app-container">
     <header class="main-header">
       <h1>🌿 الموسوعة النباتية الشاملة 🌱</h1>
-      <p style="font-size:1.1rem;opacity:0.9;">200 نبات | أيقونات جميلة | بحث عربي وإنجليزي</p>
+      <p style="font-size:1.1rem;opacity:0.9;">200 نبات كاملين | أيقونات جميلة | بحث عربي وإنجليزي</p>
       <div class="stats-bar">
         <span class="stat-item">🌱 200 نبات</span>
         <span class="stat-item">📂 8 فئات</span>
@@ -56,21 +56,21 @@
     </div>
 
     <div class="filters-wrapper" id="filterTags">
-      <span class="filter-tag active" data-filter="all">🌍 الكل</span>
-      <span class="filter-tag" data-filter="indoor">🏠 داخلي</span>
-      <span class="filter-tag" data-filter="edible">🥗 صالح للأكل</span>
-      <span class="filter-tag" data-filter="flowering">💐 مزهر</span>
-      <span class="filter-tag" data-filter="succulent">🌵 عصاري</span>
-      <span class="filter-tag" data-filter="tree">🌳 أشجار</span>
-      <span class="filter-tag" data-filter="herb">🌿 أعشاب</span>
-      <span class="filter-tag" data-filter="medicinal">💊 طبية</span>
-      <span class="filter-tag" data-filter="climber">🧗 متسلقات</span>
+      <span class="filter-tag active" data-filter="all">🌍 الكل (200)</span>
+      <span class="filter-tag" data-filter="indoor">🏠 داخلي (25)</span>
+      <span class="filter-tag" data-filter="edible">🥗 صالح للأكل (35)</span>
+      <span class="filter-tag" data-filter="flowering">💐 مزهر (28)</span>
+      <span class="filter-tag" data-filter="succulent">🌵 عصاري (22)</span>
+      <span class="filter-tag" data-filter="tree">🌳 أشجار (28)</span>
+      <span class="filter-tag" data-filter="herb">🌿 أعشاب (22)</span>
+      <span class="filter-tag" data-filter="medicinal">💊 طبية (22)</span>
+      <span class="filter-tag" data-filter="climber">🧗 متسلقات (18)</span>
     </div>
 
     <div class="results-count" id="resultsCount"></div>
     <div id="plantsGrid" class="plants-grid"></div>
 
-    <footer class="main-footer">❤️ الموسوعة النباتية الشاملة · 200 نبات · أيقونات ملونة جميلة</footer>
+    <footer class="main-footer">❤️ الموسوعة النباتية الشاملة · 200 نبات كامل · أيقونات ملونة جميلة</footer>
   </div>
 
   <script>
@@ -81,57 +81,46 @@
           english: ["Monstera","Peace Lily","Snake Plant","Ficus","Pothos","Dracaena","Spider Plant","Calathea","Philodendron","Anthurium","Aglaonema","Dieffenbachia","Peperomia","Maranta","Fittonia","Syngonium","Aspidistra","Cordyline","Schefflera","Bamboo","Yucca","Hydrangea","Begonia","Croton","Fuchsia"]
         },
         edible: {
-          arabic: ["طماطم","خيار","فلفل حلو","باذنجان","خس","جزر","فراولة","فجل","بصل","ثوم","بطاطس","بطاطا حلوة","كوسا","قرع","ملفوف","قرنبيط","بروكلي","سبانخ","جرجير","بقدونس","شمندر","لفت","كرفس","ذرة","بازلاء","فاصوليا","لوبيا","حمص","عدس","فول"],
-          english: ["Tomato","Cucumber","Bell Pepper","Eggplant","Lettuce","Carrot","Strawberry","Radish","Onion","Garlic","Potato","Sweet Potato","Zucchini","Pumpkin","Cabbage","Cauliflower","Broccoli","Spinach","Arugula","Parsley","Beetroot","Turnip","Celery","Corn","Peas","Beans","Cowpea","Chickpea","Lentil","Fava Bean"]
+          arabic: ["طماطم","خيار","فلفل حلو","باذنجان","خس","جزر","فراولة","فجل","بصل","ثوم","بطاطس","بطاطا حلوة","كوسا","قرع","ملفوف","قرنبيط","بروكلي","سبانخ","جرجير","بقدونس","شمندر","لفت","كرفس","ذرة","بازلاء","فاصوليا","لوبيا","حمص","عدس","فول","بامية","ملوخية","بقدونس إفرنجي","كراث","هليون"],
+          english: ["Tomato","Cucumber","Bell Pepper","Eggplant","Lettuce","Carrot","Strawberry","Radish","Onion","Garlic","Potato","Sweet Potato","Zucchini","Pumpkin","Cabbage","Cauliflower","Broccoli","Spinach","Arugula","Parsley","Beetroot","Turnip","Celery","Corn","Peas","Beans","Cowpea","Chickpea","Lentil","Fava Bean","Okra","Molokhia","Chervil","Leek","Asparagus"]
         },
         flowering: {
-          arabic: ["ورد","لافندر","ياسمين","أوركيد","قطيفة","عباد الشمس","أقحوان","جلابيولس","بتونيا","قرنفل","توليب","نرجس","زنبق","داليا","أستر","بنفسج","فاوانيا","كاميليا","هيبسكس","جهنمية","دفلى","ماغنوليا","جاردينيا","أزهار الكرز","لوتس"],
-          english: ["Rose","Lavender","Jasmine","Orchid","Marigold","Sunflower","Chrysanthemum","Gladiolus","Petunia","Carnation","Tulip","Daffodil","Lily","Dahlia","Aster","Violet","Peony","Camellia","Hibiscus","Bougainvillea","Oleander","Magnolia","Gardenia","Cherry Blossom","Lotus"]
+          arabic: ["ورد","لافندر","ياسمين","أوركيد","قطيفة","عباد الشمس","أقحوان","جلابيولس","بتونيا","قرنفل","توليب","نرجس","زنبق","داليا","أستر","بنفسج","فاوانيا","كاميليا","هيبسكس","جهنمية","دفلى","ماغنوليا","جاردينيا","أزهار الكرز","لوتس","ديمورفوتيكا","أنف العجل","فم السمكة"],
+          english: ["Rose","Lavender","Jasmine","Orchid","Marigold","Sunflower","Chrysanthemum","Gladiolus","Petunia","Carnation","Tulip","Daffodil","Lily","Dahlia","Aster","Violet","Peony","Camellia","Hibiscus","Bougainvillea","Oleander","Magnolia","Gardenia","Cherry Blossom","Lotus","African Daisy","Snapdragon","Linaria"]
         },
         succulent: {
-          arabic: ["ألوفيرا","إيشيفيريا","كراسولا","صبار الميلاد","صبار برميلي","سيدوم","هاوورثيا","ليثوبس","أغاف","يوكا صحراوية","صبار الإجاص","سيريس","ماميلاريا","فيروكاكتوس","أستروفيتوم","جيمنوكاليسيوم","نوتوكاكتوس","أدينيوم","باتشيبوديوم","بورتولاكاريا"],
-          english: ["Aloe Vera","Echeveria","Jade Plant","Christmas Cactus","Barrel Cactus","Sedum","Haworthia","Lithops","Agave","Yucca","Prickly Pear","Cereus","Mammillaria","Ferocactus","Astrophytum","Gymnocalycium","Notocactus","Adenium","Pachypodium","Portulacaria"]
+          arabic: ["ألوفيرا","إيشيفيريا","كراسولا","صبار الميلاد","صبار برميلي","سيدوم","هاوورثيا","ليثوبس","أغاف","يوكا صحراوية","صبار الإجاص","سيريس","ماميلاريا","فيروكاكتوس","أستروفيتوم","جيمنوكاليسيوم","نوتوكاكتوس","أدينيوم","باتشيبوديوم","بورتولاكاريا","صبار نجمة","صبار ذهبي"],
+          english: ["Aloe Vera","Echeveria","Jade Plant","Christmas Cactus","Barrel Cactus","Sedum","Haworthia","Lithops","Agave","Yucca","Prickly Pear","Cereus","Mammillaria","Ferocactus","Astrophytum","Gymnocalycium","Notocactus","Adenium","Pachypodium","Portulacaria","Star Cactus","Golden Barrel"]
         },
         tree: {
-          arabic: ["زيتون","توت","رمان","نخيل","برتقال","تين","لوز","تفاح","كمثرى","خوخ","مشمش","كرز","جوز","صنوبر","سرو","أرز","بلوط","قيقب","زان","صفصاف","حور","كينا","أكاسيا","بونسيانا","جكراندا"],
-          english: ["Olive","Mulberry","Pomegranate","Date Palm","Orange","Fig","Almond","Apple","Pear","Peach","Apricot","Cherry","Walnut","Pine","Cypress","Cedar","Oak","Maple","Beech","Willow","Poplar","Eucalyptus","Acacia","Poinciana","Jacaranda"]
+          arabic: ["زيتون","توت","رمان","نخيل","برتقال","تين","لوز","تفاح","كمثرى","خوخ","مشمش","كرز","جوز","صنوبر","سرو","أرز","بلوط","قيقب","زان","صفصاف","حور","كينا","أكاسيا","بونسيانا","جكراندا","مانجو","أفوكادو","جوافة"],
+          english: ["Olive","Mulberry","Pomegranate","Date Palm","Orange","Fig","Almond","Apple","Pear","Peach","Apricot","Cherry","Walnut","Pine","Cypress","Cedar","Oak","Maple","Beech","Willow","Poplar","Eucalyptus","Acacia","Poinciana","Jacaranda","Mango","Avocado","Guava"]
         },
         herb: {
-          arabic: ["ريحان","نعناع","روزماري","زعتر","كزبرة","شبت","بقدونس","ميرمية","أوريجانو","طرخون","كمون","يانسون","كراوية","حلبة","زنجبيل","كركم","هيل","قرنفل","قرفة","جوزة الطيب"],
-          english: ["Basil","Mint","Rosemary","Thyme","Coriander","Dill","Parsley","Sage","Oregano","Tarragon","Cumin","Anise","Caraway","Fenugreek","Ginger","Turmeric","Cardamom","Clove","Cinnamon","Nutmeg"]
+          arabic: ["ريحان","نعناع","روزماري","زعتر","كزبرة","شبت","بقدونس","ميرمية","أوريجانو","طرخون","كمون","يانسون","كراوية","حلبة","زنجبيل","كركم","هيل","قرنفل","قرفة","جوزة الطيب","ليمون عشبي","بردقوش"],
+          english: ["Basil","Mint","Rosemary","Thyme","Coriander","Dill","Parsley","Sage","Oregano","Tarragon","Cumin","Anise","Caraway","Fenugreek","Ginger","Turmeric","Cardamom","Clove","Cinnamon","Nutmeg","Lemongrass","Marjoram"]
         },
         medicinal: {
-          arabic: ["بابونج","نعناع فلفلي","إخناسيا","جنكو","سانت جون","فاليريان","لبان","مر","حبة البركة","يانسون نجمي","شاي أخضر","كركديه","عصفر","خطمي","صبار طبي","كركم طبي","زنجبيل طبي","غار","زوفا","أذن الدب"],
-          english: ["Chamomile","Peppermint","Echinacea","Ginkgo","St John's Wort","Valerian","Frankincense","Myrrh","Black Seed","Star Anise","Green Tea","Hibiscus","Safflower","Marshmallow","Medicinal Aloe","Turmeric","Ginger","Bay Leaf","Hyssop","Mullein"]
+          arabic: ["بابونج","نعناع فلفلي","إخناسيا","جنكو","سانت جون","فاليريان","لبان","مر","حبة البركة","يانسون نجمي","شاي أخضر","كركديه","عصفر","خطمي","صبار طبي","كركم طبي","زنجبيل طبي","غار","زوفا","أذن الدب","أشواغاندا","عرق السوس"],
+          english: ["Chamomile","Peppermint","Echinacea","Ginkgo","St John's Wort","Valerian","Frankincense","Myrrh","Black Seed","Star Anise","Green Tea","Hibiscus","Safflower","Marshmallow","Medicinal Aloe","Turmeric","Ginger","Bay Leaf","Hyssop","Mullein","Ashwagandha","Licorice"]
         },
         climber: {
-          arabic: ["ياسمين متسلق","بنيونيا","لبلاب","عنب","كيوي","فاصوليا متسلقة","بازلاء عطرية","كلمتس","زهرة الآلام","فيلوديندرون متسلق","هيدرا","ماندفيلا","تيباروما","دبلادينيا","بوجانفيليا","كابسيس","لوف","مورايا","بوهينيا","ستيفانوتس"],
-          english: ["Climbing Jasmine","Bignonia","Ivy","Grape","Kiwi","Runner Bean","Sweet Pea","Clematis","Passion Flower","Climbing Philodendron","Ivy","Mandevilla","Thunbergia","Dipladenia","Bougainvillea","Campsis","Luffa","Murraya","Bauhinia","Stephanotis"]
+          arabic: ["ياسمين متسلق","بنيونيا","لبلاب","عنب","كيوي","فاصوليا متسلقة","بازلاء عطرية","كلمتس","زهرة الآلام","فيلوديندرون متسلق","هيدرا","ماندفيلا","تيباروما","دبلادينيا","بوجانفيليا","كابسيس","لوف","مورايا"],
+          english: ["Climbing Jasmine","Bignonia","Ivy","Grape","Kiwi","Runner Bean","Sweet Pea","Clematis","Passion Flower","Climbing Philodendron","Ivy","Mandevilla","Thunbergia","Dipladenia","Bougainvillea","Campsis","Luffa","Murraya"]
         }
       };
 
+      // التحقق من العدد الإجمالي
+      var total = 0;
+      for (var cat in plantData) {
+        total += plantData[cat].arabic.length;
+      }
+      console.log('إجمالي النباتات: ' + total); // يجب أن يظهر 200
+
       var catNames = {indoor:'نبات داخلي',edible:'صالح للأكل',flowering:'نبات مزهر',succulent:'نبات عصاري',tree:'شجرة',herb:'عشب',medicinal:'نبات طبي',climber:'متسلق'};
       var catIcons = {indoor:'🪴',edible:'🥬',flowering:'🌸',succulent:'🌵',tree:'🌳',herb:'🌿',medicinal:'💊',climber:'🌱'};
-      var catColors = {
-        indoor: ['#e8f5e9','#c8e6c9'],
-        edible: ['#fff3e0','#ffe0b2'],
-        flowering: ['#fce4ec','#f8bbd0'],
-        succulent: ['#e0f2f1','#b2dfdb'],
-        tree: ['#efebe9','#d7ccc8'],
-        herb: ['#f1f8e9','#dcedc8'],
-        medicinal: ['#f3e5f5','#e1bee7'],
-        climber: ['#e8f5e9','#c8e6c9']
-      };
-      var tips = {
-        indoor:"ضوء غير مباشر، ري معتدل، رطوبة متوسطة، تربة جيدة التصريف",
-        edible:"شمس كاملة 6-8 ساعات، تربة خصبة، ري منتظم، تسميد عضوي",
-        flowering:"شمس كاملة لظل جزئي، تربة غنية، ري منتظم، تقليم موسمي",
-        succulent:"شمس ساطعة، ري كل 2-4 أسابيع، تربة رملية، تصريف ممتاز",
-        tree:"شمس كاملة، تربة عميقة، ري عميق، تقليم سنوي",
-        herb:"شمس جزئية لكاملة، تربة جيدة التصريف، ري معتدل، حصاد متكرر",
-        medicinal:"شمس كاملة، تربة عضوية، ري معتدل، حصاد موسمي",
-        climber:"شمس كاملة لظل جزئي، تعريشة داعمة، تربة غنية، ري منتظم"
-      };
+      var catColors = {indoor:['#e8f5e9','#c8e6c9'],edible:['#fff3e0','#ffe0b2'],flowering:['#fce4ec','#f8bbd0'],succulent:['#e0f2f1','#b2dfdb'],tree:['#efebe9','#d7ccc8'],herb:['#f1f8e9','#dcedc8'],medicinal:['#f3e5f5','#e1bee7'],climber:['#e8f5e9','#c8e6c9']};
+      var tips = {indoor:"ضوء غير مباشر، ري معتدل",edible:"شمس كاملة، ري منتظم",flowering:"شمس كاملة، تقليم موسمي",succulent:"شمس ساطعة، ري كل أسبوعين",tree:"شمس كاملة، ري عميق",herb:"شمس جزئية، حصاد متكرر",medicinal:"شمس كاملة، تربة عضوية",climber:"تعريشة داعمة، ري منتظم"};
 
       var plants = [];
       var id = 1;
@@ -160,27 +149,14 @@
           if (s) return p.name.toLowerCase().indexOf(s) > -1 || p.eng.toLowerCase().indexOf(s) > -1 || p.catName.indexOf(s) > -1;
           return true;
         });
-        count.textContent = '✅ تم العثور على ' + f.length + ' نبات من أصل ' + plants.length;
-        if (f.length === 0) { grid.innerHTML = '<div class="no-results"><div style="font-size:4rem;margin-bottom:1rem;">🔍</div><p>لا توجد نباتات تطابق بحثك</p><p style="color:#8aa78b;">جرب البحث بالعربية أو الإنجليزية</p></div>'; return; }
+        count.textContent = '✅ تم العثور على ' + f.length + ' نبات من أصل 200';
+        if (f.length === 0) { grid.innerHTML = '<div class="no-results"><div style="font-size:4rem;margin-bottom:1rem;">🔍</div><p>لا توجد نباتات</p><p style="color:#8aa78b;">جرب البحث بالعربية أو الإنجليزية</p></div>'; return; }
         var d = f.slice(0, 40);
         var h = '';
         d.forEach(function(p) {
-          h += '<div class="plant-card">' +
-            '<div class="plant-img" style="background:linear-gradient(135deg,'+p.bg1+','+p.bg2+')">' +
-              '<span>'+p.icon+'</span>' +
-              '<span class="category-badge">'+p.catName+'</span>' +
-            '</div>' +
-            '<div class="card-content">' +
-              '<div class="plant-name">'+p.name+'<span class="english-name">'+p.eng+'</span></div>' +
-              '<p class="plant-desc">'+p.name+' - '+p.catName+'. نبات '+(p.category==='indoor'?'داخلي سهل العناية':p.category==='edible'?'غذائي مفيد':p.category==='flowering'?'مزهر جميل':p.category==='succulent'?'عصاري متحمل للجفاف':p.category==='tree'?'معمر كبير':p.category==='herb'?'عطري للمطبخ':p.category==='medicinal'?'ذو خصائص علاجية':'متسلق رائع')+'.</p>' +
-              '<div class="cultivation-box"><span>🌱</span><span><strong>الزراعة:</strong> '+p.tip+'</span></div>' +
-            '</div>' +
-          '</div>';
+          h += '<div class="plant-card"><div class="plant-img" style="background:linear-gradient(135deg,'+p.bg1+','+p.bg2+')"><span>'+p.icon+'</span><span class="category-badge">'+p.catName+'</span></div><div class="card-content"><div class="plant-name">'+p.name+'<span class="english-name">'+p.eng+'</span></div><p class="plant-desc">'+p.name+' - '+p.catName+'</p><div class="cultivation-box"><span>🌱</span><span><strong>الزراعة:</strong> '+p.tip+'</span></div></div></div>';
         });
         grid.innerHTML = h;
-        if (f.length > 40) {
-          grid.innerHTML += '<div class="no-results" style="padding:1.5rem;background:#f0f7e8;">📊 تم عرض 40 نبات من أصل '+f.length+'. استخدم بحثاً أدق.</div>';
-        }
       }
 
       tags.forEach(function(t) {
